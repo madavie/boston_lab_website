@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Boston Universal Chemical Analysis Laboratory | Premium SSD Solutions
+    </title>
+    <!-- Bootstrap 5 CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate.css for animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-flask me-2"></i>Boston Universal Chemical Lab
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <section id="home" class="hero-carousel">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            "
+          >
+            <div class="carousel-caption">
+              <h1 class="animate__animated animate__fadeInDown">
+                Boston Universal Chemical Analysis Laboratory
+              </h1>
+              <p class="lead animate__animated animate__fadeInUp">
+                Best laboratory for cleaning spotted banknotes (black & green)
+                and production of PREMIUM SSD solutions. With several years of
+                experience in the field.
+              </p>
+              <div
+                class="animate__animated animate__fadeInUp animate__delay-1s"
+              >
+                <p>
+                  <i class="fab fa-whatsapp me-2"></i> Phone/WhatsApp: +33 6 44
+                  66 09 08 ; +212 6 18 93 71 44
+                </p>
+                <a href="#contact" class="btn btn-light btn-lg mt-3"
+                  >Contact Us Today</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            "
+          >
+            <div class="carousel-caption">
+              <h1>Premium SSD Solutions</h1>
+              <p class="lead">
+                State-of-the-art logistics for quality service. We guarantee
+                effective cleaning solutions for all types of banknotes.
+              </p>
+              <div>
+                <p>
+                  <i class="fab fa-whatsapp me-2"></i> Contact us for custom
+                  solutions
+                </p>
+                <a href="#products" class="btn btn-light btn-lg mt-3"
+                  >View Products</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            "
+          >
+            <div class="carousel-caption">
+              <h1>Global Expertise</h1>
+              <p class="lead">
+                Serving clients worldwide with specialized chemical solutions
+                and technical support for banknote restoration.
+              </p>
+              <div>
+                <p>
+                  <i class="fas fa-globe me-2"></i> International delivery
+                  available
+                </p>
+                <a href="#process" class="btn btn-light btn-lg mt-3"
+                  >Our Process</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title fade-in">Who We Are</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div
+              class="about-img fade-in"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+              "
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content fade-in">
+              <h3>SSD Solutions Automatique</h3>
+              <p>
+                We are a laboratory specialized in the design of SSD chemical
+                solutions in several varieties, given the high demand for SSD
+                cleaning solution observed in recent years. With several sectors
+                of activity including the design of SSD chemical solutions to
+                overcome the problems of cleaning banknotes (euro, dollar etc…).
+                Our laboratories provide you with quality SSD solutions for a
+                satisfactory result.
+              </p>
+              <p class="mt-3">
+                Tell us your problems and we will do our best to satisfy you.
+              </p>
+              <p class="mt-4">
+                <strong
+                  ><i class="fab fa-whatsapp me-2"></i> Phone WhatsApp : +33 6
+                  44 66 09 08 ; +212 6 18 93 71 44</strong
+                >
+              </p>
+
+              <div class="mt-5">
+                <h4>IN THE INTEREST OF SATISFYING YOU</h4>
+                <p>
+                  We have set ourselves the objectives of designing SSD
+                  solutions in large quantities and in several varieties to meet
+                  the high demand observed in the world today.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services bg-light">
+      <div class="container">
+        <h2 class="section-title fade-in">Our Core Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-flask"></i>
+              </div>
+              <h4>Conception of SSD Solutions</h4>
+              <p>
+                We provide you with chemical solutions SSD premium volume 1 & 2
+                with state-of-the-art formulation technology.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h4>Sale Of SSD Solutions</h4>
+              <p>
+                A variety of SSD solutions available in several varieties and
+                offered for sale in our premises with worldwide shipping.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h4>Monitoring And Control</h4>
+              <p>
+                Our expertise accompanies you in the process of cleaning your
+                black and green notes with 24/7 support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <div class="container">
+        <h2 class="section-title fade-in">SSD SOLUTIONS FOR SALE</h2>
+        <p class="text-center mb-5 fade-in">
+          We provide you with the best SSD solutions for sale in our various
+          representations with guarantee and turnaround in case of
+          dissatisfaction.
+        </p>
+
+        <div class="row" id="product-container">
+          <!-- Products loaded by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Process/Strategies Section -->
+    <section id="process" class="process bg-light">
+      <div class="container">
+        <h2 class="section-title fade-in">OUR STRATEGIES</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h4>Customer Contact</h4>
+              <p>
+                Collection of customer needs and expertise fee rate
+                determination with personalized consultation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>Project Analysis</h4>
+              <p>
+                Detailed analysis of banknote status and design of appropriate
+                SSD solution with technical specifications.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>Implementation</h4>
+              <p>
+                Effective cleaning of black banknotes with appropriate SSD
+                solution using precision equipment.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="process-step fade-in">
+              <div class="step-icon">
+                <i class="fas fa-shipping-fast"></i>
+              </div>
+              <h4>Delivery & Support</h4>
+              <p>
+                Secure delivery and comprehensive customer training on retention
+                methods for SSD solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <h2 class="section-title text-white fade-in">Our Achievements</h2>
+        <div class="row text-center">
+          <div class="col-6 col-md-3">
+            <div class="stat-box fade-in">
+              <span class="stat-number" id="stat1">0</span>
+              <h5>Successfully Delivered</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-box fade-in">
+              <span class="stat-number" id="stat2">0</span>
+              <h5>Satisfied Customers</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-box fade-in">
+              <span class="stat-number" id="stat3">0</span>
+              <h5>Years Of Experience</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-box fade-in">
+              <span class="stat-number" id="stat4">0</span>
+              <h5>Orders This Year</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Map Section -->
+    <section id="location" class="map-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Our Location</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="map-container fade-in">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1620227151234!5m2!1sen!2sfr"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="location-info fade-in">
+              <h3 class="mb-4">Visit Our Facilities</h3>
+              <p class="mb-4">
+                Our state-of-the-art laboratory facilities in Paris are equipped
+                with the latest technology for SSD solution production and
+                banknote analysis.
+              </p>
+
+              <div class="contact-info">
+                <p>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <strong>Headquarters:</strong> 5, rue Roland Barthes, 75032
+                  Paris, France
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <strong>Production Facility:</strong> Lyon, France
+                </p>
+                <p>
+                  <i class="fas fa-phone"></i> <strong>Phone:</strong> +33 6 44
+                  66 09 08
+                </p>
+                <p>
+                  <i class="fas fa-phone"></i>
+                  <strong>International:</strong> +212 6 18 93 71 44
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  <strong>Email:</strong> info@ssdsolutionsautomatique.com
+                </p>
+              </div>
+
+              <div class="mt-4">
+                <h5>Business Hours</h5>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Emergency Services Only</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title fade-in">Client Testimonials</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-card fade-in">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  class="client-img"
+                  alt="Client"
+                />
+                <div>
+                  <h5 class="mb-0">James Wilson</h5>
+                  <small>Financial Institution, UK</small>
+                </div>
+              </div>
+              <p>
+                "The SSD solutions restored valuable banknotes we thought were
+                permanently damaged. Exceptional service and results!"
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card fade-in">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  class="client-img"
+                  alt="Client"
+                />
+                <div>
+                  <h5 class="mb-0">Sophie Martin</h5>
+                  <small>Currency Exchange, France</small>
+                </div>
+              </div>
+              <p>
+                "Professional team with precise solutions. Our stained euro
+                notes were restored to perfect condition. Highly recommended!"
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card fade-in">
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/67.jpg"
+                  class="client-img"
+                  alt="Client"
+                />
+                <div>
+                  <h5 class="mb-0">Ahmed Hassan</h5>
+                  <small>Banking Sector, UAE</small>
+                </div>
+              </div>
+              <p>
+                "International delivery was flawless. The SSD Supreme Solution
+                worked perfectly on our dollar notes. Will order again."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="footer-links">
+              <h5>Boston Universal Chemical Analysis Lab</h5>
+              <p>
+                Specializing in SSD solutions production and banknote cleaning.
+                State-of-the-art technology with global expertise serving
+                clients worldwide.
+              </p>
+              <div class="mt-4">
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-facebook fa-lg"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-twitter fa-lg"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-linkedin fa-lg"></i
+                ></a>
+                <a href="#" class="text-white"
+                  ><i class="fab fa-instagram fa-lg"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="footer-links">
+              <h5>Website</h5>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Our Product</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="footer-links">
+              <h5>Quick Links</h5>
+              <ul>
+                <li><a href="#about">Know More About Us</a></li>
+                <li><a href="#products">Visit Store</a></li>
+                <li><a href="#location">Locate Stores</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#contact">Let's Connect</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="footer-links contact-info">
+              <h5>Contact Us</h5>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Add-1: 5, rue <br />75032
+                <!-- Paris, France -->
+              </p>
+              <p><i class="fas fa-phone"></i> +33 6 44</p>
+              <p><i class="fas fa-phone"></i> +212 6</p>
+              <p>
+                <i class="fas fa-envelope"></i> info@ssdsolutionsautomatique.com
+              </p>
+              <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/33644660908" class="whatsapp-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
